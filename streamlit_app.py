@@ -7,7 +7,7 @@ st.title("🎨 Color Detection App")
 st.write("Upload an image, then click **Detect color** to find the dominant color.")
 
 # Upload image
-uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("https://sl.bing.net/jJJujViJDtQ", type=["jpg", "jpeg", "png"])
 
 # Predefined simple color dictionary (name -> RGB)
 NAMED_COLORS = {
